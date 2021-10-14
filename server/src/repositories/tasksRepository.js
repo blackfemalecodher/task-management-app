@@ -62,5 +62,14 @@ const INITIAL_TASKS: Map<number, Task> = new Map([
       description: "Prepare the contract phase of the old API.",
       completed: false
     }
+  ],
+  [
+    3,
+    {
+      id: 3,
+      title: "GitHub Actions",
+      description: "Prepare GitHub actions homework and share on github.",
+      completed: true
+    }
   ]
 ]);

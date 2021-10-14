@@ -8,5 +8,5 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           yarn-version: '1.22.15'
-      - run: cd server && yarn serve
-      - run: cd ../client && yarn start
+      - run: yarn install
+      - run: yarn test
